@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.land{
+    background-color: brown;
+    height: 45px;
+    width: 1800px;
+    margin-left: 25px;
+}
+
+.slime{
+    position: relative;
+    margin-top: 828px;
+    top: 4px;
+}
+
+.fireball{
+    position: absolute;
+    width: 30px;
+    height: 50px;
+}
+
+.score-panel{
+    position: absolute;
+    bottom: 400px;
+    left: 600px;
+    border: 2px solid orange;
+    padding: 50px;
+    text-align: center;
+}
+
+.label-text{
+    font-size: 100px;
+    font-weight: 900;
+    color: red;
+}
+
+.score-text{
+    font-size: 100px;
+}
+
+.time-display{
+    position: absolute;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 50px;
+    bottom: 800px;
+}
